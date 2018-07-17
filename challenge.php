@@ -1,11 +1,12 @@
 <?php
 function assocArray(){
-	$array = array(array("name" => "person name",
-		"age"  => 42
-	),
-		array("name" => "another person name",
-			"age"  =>  28
-		)
+	$array = array(
+				["name" => "person name",
+		"		age"  => 42
+				],
+				["name" => "another person name",
+			"		age"  =>  28
+				]
 	);
 
 	foreach($array as $key => $value) {
