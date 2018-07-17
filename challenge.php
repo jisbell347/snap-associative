@@ -1,10 +1,10 @@
 <?php
 function assocArray(){
 	$array = array(
-				["name" => "person name",
+				["name" => "Jean-Luc Picard",
 		"		age"  => 42
 				],
-				["name" => "another person name",
+				["name" => "Mr. Spock",
 			"		age"  =>  28
 				]
 	);
