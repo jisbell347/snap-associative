@@ -1,5 +1,5 @@
 <?php
-
+// creates an array with multiple arrays nested inside the array
 $paramArray = [
 	["name" => "Goku", "age" => 40],
 	["name" => "Luffy", "age" => 20],
@@ -28,7 +28,9 @@ function averageAge(array $personsArray) : float {
 	//make sure $totalAge is the correct number
 	echo "The total age is " . $totalAge . PHP_EOL;
 
+	// returns the $totalAge divided by the length of the $personsArray
 	return ($totalAge / count($personsArray));
 }
 
+// pushes $paramArray array into the averageAge function
 echo "The average age is " . averageAge($paramArray) .PHP_EOL;
